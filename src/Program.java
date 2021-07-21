@@ -5,8 +5,7 @@ public class Program {
 		int total;		
 		float avg;
 
-		kor1 = 50;
-		
+		kor1 = 50;		
 		kor2 = 60;
 		kor3 = 80;
 
