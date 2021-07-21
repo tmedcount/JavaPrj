@@ -2,8 +2,7 @@ public class Program {
 	public static void main(String[] args) {
 
 		int kor1, kor2, kor3;
-		int total;
-		
+		int total;		
 		float avg;
 
 		kor1 = 50;
