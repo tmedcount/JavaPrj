@@ -3,6 +3,7 @@ public class Program {
 
 		int kor1, kor2, kor3;
 		int total;
+		
 		float avg;
 
 		kor1 = 50;
