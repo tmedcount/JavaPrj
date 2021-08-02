@@ -15,7 +15,7 @@ public class Program {
 		
 		//  --------성적 출력 부분--------------------------------
 		System.out.println("┌─────────────────────┐");
-		System.out.println("│       성적 출력                │");
+		System.out.println("│  		 				성적 출력   		             │");
 		System.out.println("└─────────────────────┘");
 		
 		System.out.printf("\t국어1: %3d\n", kor1);

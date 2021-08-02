@@ -1,4 +1,4 @@
-package ex5.io.scanner;
+package ex6.operator;
 
 import java.util.Scanner;
 
@@ -18,11 +18,14 @@ public class Program {
 		// --------성적 입력 부분--------------------------------
 		
 		System.out.println("┌─────────────────────┐");
-		System.out.println("│  		 				성적 입력   		             │");
+		System.out.println("│	  성적 입력             │");
 		System.out.println("└─────────────────────┘");
 		
 		System.out.print("국어1: ");
 		kor1 = scan.nextInt();
+		
+		System.out.println(0<= kor1 && kor1<=100);
+		
 		System.out.print("국어2: ");
 		kor2 = scan.nextInt();
 		System.out.print("국어3: ");
@@ -34,7 +37,7 @@ public class Program {
 		avg = total / 3.0f; // 묵시적 형변환, cf.) (float)(total / 3.0); - 명시적 형변환(d->f)
 		
 		System.out.println("┌─────────────────────┐");
-		System.out.println("│  		 				성적 출력   		             │");
+		System.out.println("│	  성적 입력             │");
 		System.out.println("└─────────────────────┘");
 		
 		System.out.printf("국어1: %3d\n", kor1);
