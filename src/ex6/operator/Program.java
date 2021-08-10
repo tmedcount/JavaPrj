@@ -24,7 +24,8 @@ public class Program {
 		System.out.print("국어1: ");
 		kor1 = scan.nextInt();
 		
-		System.out.println(0<= kor1 && kor1<=100);
+		String validate= (0<= kor1 && kor1<=100)?"유효합니다":"잘못된 값 입니다."; // 3항 연산자
+		System.out.println(validate);
 		
 		System.out.print("국어2: ");
 		kor2 = scan.nextInt();
@@ -37,7 +38,7 @@ public class Program {
 		avg = total / 3.0f; // 묵시적 형변환, cf.) (float)(total / 3.0); - 명시적 형변환(d->f)
 		
 		System.out.println("┌─────────────────────┐");
-		System.out.println("│	  성적 입력             │");
+		System.out.println("│	  성적 출력             │");
 		System.out.println("└─────────────────────┘");
 		
 		System.out.printf("국어1: %3d\n", kor1);
